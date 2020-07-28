@@ -1,0 +1,84 @@
+html,body {                     /*this we use when extra white space occurred in html page at left,right, */
+    margin:0;                    /*right, top and bottom */
+    padding:0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.5;
+  color: grey
+}
+.container-fluid {
+padding: 1rem;
+  }
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  text-align: center;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.imgbox {
+            display: grid;
+            height: 100%;
+        }
+    .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+.nav-tabs{
+  /* padding-left: 20rem; */
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.tab1{
+  background-color: #dbe2ef;
+}
+.btn {
+  border-radius: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.btn-img{
+  width: 25%;
+}
+p {
+  border-radius: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.card{
+  font-weight: bold;
+}
+
+.subfoot{
+  color: #fff;
+  background-color: grey;
+}
